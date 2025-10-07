@@ -1,0 +1,16 @@
+# Node.js / React / Vue
+node_modules/
+dist/
+build/
+
+# Android / iOS
+*.apk
+*.aab
+*.ipa
+*.xcworkspace/
+.gradle/
+.idea/
+
+# System files
+.DS_Store
+.env
