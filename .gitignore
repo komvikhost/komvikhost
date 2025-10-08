@@ -43,3 +43,11 @@ Thumbs.db
 # === Misc ===
 *.bak
 *.swp
+
+# === Temp and help file ===
+package.json
+HELP_deploy.md
+README_all.md
+README_firebase_all.md
+README_firebase_install.md
+README_git_github.md
