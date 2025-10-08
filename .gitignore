@@ -1,16 +1,45 @@
-# Node.js / React / Vue
+# === Node.js / npm ===
 node_modules/
-dist/
-build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
-# Android / iOS
-*.apk
-*.aab
-*.ipa
-*.xcworkspace/
-.gradle/
+# === Firebase ===
+.firebase/
+.firebaserc.local
+firebase-debug.log
+firebase-debug.*
+firebase-export.json
+firestore.indexes.json.backup
+
+# === Hosting build output ===
+komvikweb/dist/
+functions/lib/
+functions/node_modules/
+functions/.env
+functions/.runtimeconfig.json
+
+# === Environment / credentials ===
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# === macOS / OS files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+.history/
 .idea/
 
-# System files
-.DS_Store
-.env
+# === Logs ===
+*.log
+*.tmp
+
+# === Misc ===
+*.bak
+*.swp
