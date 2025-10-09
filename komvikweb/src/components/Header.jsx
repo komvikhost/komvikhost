@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher"; // Импортируем LanguageSwitcher
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-card text-primary shadow-md z-50 transition-all duration-300">
-      <div className="container mx-auto px-1 py-1 flex justify-between items-center">
+      <div className="container mx-auto px-1 py-1 flex justify-between items-center relative">
 
         {/* === ЛОГОТИП === */}
         <Link
@@ -30,29 +31,29 @@ export default function Header() {
 
         {/* === ГАМБУРГЕР === */}
         <button
-              onClick={() => setOpen(!open)}
-              aria-label="Toggle Menu"
-              className="md:hidden text-blue-700 focus:outline-none transition-transform duration-200 hover:scale-125"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-10 h-10"   // ← размер иконки (увеличено вдвое)
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle Menu"
+          className="md:hidden text-blue-700 focus:outline-none transition-transform duration-200 hover:scale-125"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-10 h-10"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
 
         {/* === НАВИГАЦИЯ === */}
         <nav
           className={`
-            absolute md:static left-0 top-[70px] md:top-auto w-full md:w-auto 
-            bg-card md:bg-transparent text-center md:flex md:items-center 
-            transition-all duration-300 ease-in-out 
-            font-roboto-menu text-2xl-menu md:text-sm-menu lg:text-base-menu tracking-wide 
+            absolute md:static left-0 top-[70px] md:top-auto w-full md:w-auto
+            bg-card md:bg-transparent text-center md:flex md:items-center
+            transition-all duration-300 ease-in-out
+            font-roboto-menu text-2xl-menu md:text-sm-menu lg:text-base-menu tracking-wide
             ${open ? "opacity-100 visible" : "opacity-0 invisible md:visible md:opacity-100"}
           `}
         >
@@ -70,6 +71,12 @@ export default function Header() {
             ))}
           </ul>
         </nav>
+
+        {/* === ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКОВ (сдвигаем левее, когда гамбургер-меню открыто) === */}
+        <div className={`absolute top-2.5 right-12 md:static md:flex md:items-center md:gap-4`}>
+          <LanguageSwitcher /> {/* Размещаем LanguageSwitcher */}
+        </div>
+
       </div>
     </header>
   );
