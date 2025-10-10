@@ -90,15 +90,15 @@ export default function CookieConsent({ onConsentChange }) {
               >
                 <div className="modal-content w-[92%] sm:w-[85%] md:w-[70%] lg:w-[45%] max-w-md bg-white text-gray-800 text-sm rounded-2xl shadow-2xl border border-gray-200 p-5 backdrop-blur-sm dark:bg-gray-800 dark:text-gray-100">
                   <h2 className="text-lg font-semibold mb-2 text-center">
-                    {t("cookies.title")}
+                    {t("title")}
                   </h2>
                   <p className="mb-4 text-gray-600 dark:text-gray-300 leading-relaxed text-center">
-                    {t("cookies.text")}{" "}
+                    {t("text")}{" "}
                     <button
                       onClick={() => setModalOpen(true)} // Открыть модальное окно при клике
                       className="text-blue-600 hover:underline dark:text-blue-400"
                     >
-                      {t("cookies.policy")}
+                      {t("policy")}
                     </button>
                     .
                   </p>
@@ -108,13 +108,13 @@ export default function CookieConsent({ onConsentChange }) {
                       onClick={() => handleChoice(false)}
                       className="px-4 py-2 rounded-lg bg-gray-100 text-gray-700 hover:bg-gray-200 transition dark:bg-gray-500 dark:text-gray-100 dark:hover:bg-gray-600"
                     >
-                      {t("cookies.decline")}
+                      {t("decline")}
                     </button>
                     <button
                       onClick={() => handleChoice(true)}
                       className="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
                     >
-                      {t("cookies.accept")}
+                      {t("accept")}
                     </button>
                   </div>
                 </div>

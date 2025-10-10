@@ -1,18 +1,21 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import LanguageSwitcher from "./LanguageSwitcher"; // Импортируем LanguageSwitcher
+import { useTranslation } from "react-i18next"; // Импортируем useTranslation
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  
+  const { t } = useTranslation('menu'); // Используем 'menu' для загрузки переводов меню
 
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "Ich", path: "/ich" },
-    { name: "Skills", path: "/skills" },
-    { name: "Projekte", path: "/projekte" },
-    { name: "Zeugnisse", path: "/zeugnisse" },
-    { name: "Blog", path: "/blog" },
-    { name: "Kontakt", path: "/kontakt" },
+    { name: t("home"), path: "/" },
+    { name: t("ich"), path: "/ich" },
+    { name: t("skills"), path: "/skills" },
+    { name: t("projekte"), path: "/projekte" },
+    { name: t("zeugnisse"), path: "/zeugnisse" },
+    { name: t("blog"), path: "/blog" },
+    { name: t("kontakt"), path: "/kontakt" },
   ];
 
   return (
@@ -53,7 +56,7 @@ export default function Header() {
             absolute md:static left-0 top-[70px] md:top-auto w-full md:w-auto
             bg-card md:bg-transparent text-center md:flex md:items-center
             transition-all duration-300 ease-in-out
-            font-roboto-menu text-2xl-menu md:text-sm-menu lg:text-base-menu tracking-wide
+            font-roboto-menu text-sm-menu md:text-base-menu lg:text-xl-menu tracking-wide
             ${open ? "opacity-100 visible" : "opacity-0 invisible md:visible md:opacity-100"}
           `}
         >
