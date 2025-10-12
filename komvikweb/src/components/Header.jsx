@@ -11,9 +11,9 @@ export default function Header() {
   const menuItems = [
     { name: t("home"), path: "/" },
     { name: t("ich"), path: "/ich" },
-    { name: t("skills"), path: "/skills" },
-    { name: t("projekte"), path: "/projekte" },
+    { name: t("skills"), path: "/skills" },    
     { name: t("zeugnisse"), path: "/zeugnisse" },
+    { name: t("projekte"), path: "/projekte" },
     { name: t("blog"), path: "/blog" },
     { name: t("kontakt"), path: "/kontakt" },
   ];

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Ich() {
   return (
     <div className="p-6 bg-white rounded-2xl shadow mx-auto mt-4 max-w-3xl text-center">
-      <h1 className="text-3xl font-bold text-blue-700 mb-4">Über mich Test 111</h1>
+      <h1 className="text-3xl font-bold text-blue-700 mb-4">ICH ABOUT NE</h1>
       <p className="text-gray-700">
         Hier steht dein persönlicher Text über dich selbst, Hobbys, Interessen usw.
       </p>

@@ -1,4 +1,3 @@
-// CookieConsent.jsx
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -11,48 +10,63 @@ export default function CookieConsent({ onConsentChange }) {
   const [declined, setDeclined] = useState(false);
   const [modalOpen, setModalOpen] = useState(false); // состояние для модального окна
 
+  // Функция для блокировки/разблокировки страницы
+  const togglePageAccessibility = (block) => {
+    if (block) {
+      document.body.style.pointerEvents = "none"; // Блокируем взаимодействие
+      document.body.style.overflow = "hidden"; // Отключаем прокрутку
+    } else {
+      document.body.style.pointerEvents = "auto"; // Разблокируем взаимодействие
+      document.body.style.overflow = "auto"; // Включаем прокрутку
+    }
+  };
+
   useEffect(() => {
     const consent = localStorage.getItem("cookie_consent");
 
     if (!consent) {
-      setTimeout(() => setVisible(true), 500);
+      // Если нет информации о consent, показываем окно и блокируем страницу
+      setTimeout(() => {
+        setVisible(true);
+        togglePageAccessibility(true); // Блокируем страницу
+      }, 500);
       onConsentChange(false);
     } else if (consent === "declined") {
+      // Если пользователь отклонил cookies, показываем окно и блокируем страницу
       setDeclined(true);
       setVisible(true);
       onConsentChange(false);
-      document.body.style.pointerEvents = "none";
-      document.body.style.overflow = "hidden";
+      togglePageAccessibility(true); // Блокируем страницу
     } else if (consent === "accepted") {
+      // Если пользователь принял cookies, не показываем окно и не блокируем страницу
       setDeclined(false);
       setVisible(false);
       onConsentChange(true);
-      document.body.style.pointerEvents = "auto";
-      document.body.style.overflow = "auto";
+      togglePageAccessibility(false); // Разблокируем страницу
     }
   }, [onConsentChange]);
 
   const handleChoice = (accepted) => {
-    localStorage.setItem("cookie_consent", accepted ? "accepted" : "declined");
     if (accepted) {
+      // Если пользователь принял cookies
+      localStorage.setItem("cookie_consent", "accepted");
       setDeclined(false);
       setVisible(false);
       onConsentChange(true);
-      document.body.style.pointerEvents = "auto";
-      document.body.style.overflow = "auto";
+      togglePageAccessibility(false); // Разблокируем страницу
     } else {
+      // Если пользователь отклонил cookies
+      localStorage.setItem("cookie_consent", "declined");
       setDeclined(true);
-      setVisible(true);
+      setVisible(false); // Скрываем баннер после отказа
       onConsentChange(false);
-      document.body.style.pointerEvents = "none";
-      document.body.style.overflow = "hidden";
+      togglePageAccessibility(false); // Разблокируем страницу после отказа
     }
   };
 
   const reopenBanner = () => {
     setVisible(true);
-    document.body.style.pointerEvents = "none";
-    document.body.style.overflow = "hidden";
+    togglePageAccessibility(true); // Блокируем страницу при повторном открытии баннера
   };
 
   const closePrivacyPolicyModal = () => {

@@ -6,5 +6,27 @@
   "decline": "Decline",
   "policyTitle": "Privacy Policy",
   "policyText": "This Privacy Policy explains how we handle your data and your privacy rights.",
-  "close": "Close"
+  "close": "Close",
+
+  "policyTitleData": "Privacy Policy",
+    "generalInfoTitle": "1. General Information",
+    "generalInfoText": "I take the protection of your personal data very seriously. In this privacy policy, I explain which data I collect and how it is used. I want to ensure that you can always understand how and why your data is processed.",
+    "dataCollectedTitle": "2. What data is collected?",
+    "dataCollectedText": "I do not collect personal data such as names, addresses, or phone numbers. I only collect anonymized data to analyze the usage of my website through Google Analytics. This data helps me improve the user experience and analyze website traffic.",
+    "googleAnalyticsTitle": "3. Use of Google Analytics",
+    "googleAnalyticsText": "My website uses Google Analytics, a web analytics service from Google LLC. Google Analytics uses cookies to analyze how you use my website. The data collected is anonymized and does not allow for the identification of users. The collected data includes information about the usage of my website, such as the number of visits, average duration, and page views.",
+    "thirdPartySharingTitle": "4. Sharing with third parties",
+    "thirdPartySharingText": "I do not share personal data with third parties. All data collected through the use of my website is used exclusively for the purposes mentioned above.",
+    "cookiesAndSettingsTitle": "5. Cookies and Cookie Settings",
+    "cookiesAndSettingsText": "I use cookies to analyze the use of my website and provide you with a better user experience. You can refuse the use of cookies at any time through your browser settings. If you do this, some features of my website may not function properly.",
+    "dataStorageDurationTitle": "6. Data Storage Duration",
+    "dataStorageDurationText": "The data collected through Google Analytics is stored for 1 month. After this period, the data is deleted.",
+    "dataSecurityTitle": "7. Data Security",
+    "dataSecurityText": "All transmitted data is encrypted with SSL to ensure the security of the transmission.",
+    "userRightsTitle": "8. User Rights",
+    "userRightsText": "You have the right to access, modify, or delete your data. If you believe your data is being processed incorrectly, you can exercise your rights under the General Data Protection Regulation (GDPR).",
+    "contactTitle": "9. Contact",
+    "contactText": "You can view my contact information once you have accepted the cookie consent banner. If you agree to the cookies, you can access the contact page where all the necessary contact details are available.",
+    "closeData": "Close"
+
 }

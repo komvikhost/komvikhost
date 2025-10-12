@@ -1,14 +1,55 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import ContainerCard from "../components/ContainerCard";
 
 export default function Home() {
+  // Используем хук useTranslation для загрузки переводов для текущего языка
+  const { t } = useTranslation('home'); // Загрузим переводы из пространства имен 'home'
+
+  // Массив карточек с динамически подставляемыми переводами
   const cards = [
-    { to: "/ich", title: "ICH", subtitle: "Über mich\nHobby & Sport", icon: "person", image: "/images/start/ich2.jpg" },
-    { to: "/skills", title: "SKILLS", subtitle: "Arbeitsprofil\nWissen", icon: "school", image: "/images/start/skills2.png" },
-    { to: "/zeugnisse", title: "ZEUGNISSE", subtitle: "Mein beruflicher Werdegang", icon: "docs", image: "/images/start/zeugnisse2.png" },
-    { to: "/projekte", title: "PROJEKTE", subtitle: "Software & App\nHardware", icon: "sdk", image: "/images/start/projekte2.png" },
-    { to: "/blog", title: "BLOG", subtitle: "Blog & News\nFido", icon: "dictionary", image: "/images/start/blog2.png" },
-    { to: "/kontakt", title: "KONTAKT", subtitle: "Kontaktinformationen\nImpressum", icon: "mail", image: "/images/start/kontakt2.png" },
+    { 
+      to: "/ich", 
+      title: t("ich_title"),  // Используем ключ из JSON для перевода
+      subtitle: t("ich_text"), 
+      icon: "person", 
+      image: "/images/start/ich2.jpg" 
+    },
+    { 
+      to: "/skills", 
+      title: t("skills_title"), 
+      subtitle: t("skills_text"), 
+      icon: "school", 
+      image: "/images/start/skills2.png" 
+    },
+    { 
+      to: "/zeugnisse", 
+      title: t("zeugnisse_title"), 
+      subtitle: t("zeugnisse_text"), 
+      icon: "docs", 
+      image: "/images/start/zeugnisse2.png" 
+    },
+    { 
+      to: "/projekte", 
+      title: t("projekte_title"), 
+      subtitle: t("projekte_text"), 
+      icon: "sdk", 
+      image: "/images/start/projekte2.png" 
+    },
+    { 
+      to: "/blog", 
+      title: t("blog_title"), 
+      subtitle: t("blog_text"), 
+      icon: "dictionary", 
+      image: "/images/start/blog2.png" 
+    },
+    { 
+      to: "/kontakt", 
+      title: t("kontakt_title"), 
+      subtitle: t("kontakt_text"), 
+      icon: "mail", 
+      image: "/images/start/kontakt2.png" 
+    },
   ];
 
   return (

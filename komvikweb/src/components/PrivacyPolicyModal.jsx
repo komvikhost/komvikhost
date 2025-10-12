@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export default function PrivacyPolicyModal({ modalOpen, closePrivacyPolicyModal }) {
-  const { t } = useTranslation();  // Для получения переводов из i18next
+  const { t } = useTranslation();
 
   return (
     <AnimatePresence>
@@ -16,13 +16,64 @@ export default function PrivacyPolicyModal({ modalOpen, closePrivacyPolicyModal 
           className="fixed inset-0 flex items-center justify-center z-50"
           style={{ pointerEvents: "auto" }}
         >
-          <div className="modal-content bg-white text-gray-800 text-sm rounded-lg shadow-lg w-full max-w-[80vw] max-h-[80vh] p-6 overflow-auto">
+          <div className="modal-content bg-white text-gray-800 text-sm rounded-lg shadow-lg w-full lg:max-w-[50vw] sm:max-w-[80vw]  max-h-[80vh] p-6 overflow-auto">
             <h2 className="text-xl font-semibold mb-4 text-center">
-              {t("cookies.policyTitle")}  {/* Здесь будет перевод для заголовка */}
+              {t("policyTitleData")}  {/* Заголовок политики */}
             </h2>
-            <p className="mb-6 text-gray-700 leading-relaxed text-center">
-              {t("cookies.policyText")}  {/* Здесь будет перевод для текста политики */}
-            </p>
+            
+            {/* Раздел 1: Общая информация */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("generalInfoTitle")}</h3>
+              <p className="text-gray-700">{t("generalInfoText")}</p>
+            </div>
+            
+            {/* Раздел 2: Какие данные собираются */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("dataCollectedTitle")}</h3>
+              <p className="text-gray-700">{t("dataCollectedText")}</p>
+            </div>
+            
+            {/* Раздел 3: Использование Google Analytics */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("googleAnalyticsTitle")}</h3>
+              <p className="text-gray-700">{t("googleAnalyticsText")}</p>
+            </div>
+            
+            {/* Раздел 4: Передача данных третьим лицам */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("thirdPartySharingTitle")}</h3>
+              <p className="text-gray-700">{t("thirdPartySharingText")}</p>
+            </div>
+            
+            {/* Раздел 5: Cookies и настройки Cookies */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("cookiesAndSettingsTitle")}</h3>
+              <p className="text-gray-700">{t("cookiesAndSettingsText")}</p>
+            </div>
+            
+            {/* Раздел 6: Срок хранения данных */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("dataStorageDurationTitle")}</h3>
+              <p className="text-gray-700">{t("dataStorageDurationText")}</p>
+            </div>
+            
+            {/* Раздел 7: Безопасность данных */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("dataSecurityTitle")}</h3>
+              <p className="text-gray-700">{t("dataSecurityText")}</p>
+            </div>
+            
+            {/* Раздел 8: Права пользователей */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("userRightsTitle")}</h3>
+              <p className="text-gray-700">{t("userRightsText")}</p>
+            </div>
+            
+            {/* Раздел 9: Контактная информация */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-lg">{t("contactTitle")}</h3>
+              <p className="text-gray-700">{t("contactText")}</p>
+            </div>
 
             {/* Кнопка закрытия модального окна */}
             <div className="flex justify-center">
@@ -30,7 +81,7 @@ export default function PrivacyPolicyModal({ modalOpen, closePrivacyPolicyModal 
                 onClick={closePrivacyPolicyModal}
                 className="px-6 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
               >
-                {t("cookies.close")}  {/* Перевод для кнопки закрытия */}
+                {t("closeData")}  {/* Перевод для кнопки закрытия */}
               </button>
             </div>
           </div>
