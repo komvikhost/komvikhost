@@ -1,11 +1,14 @@
 <!--
 =====================================================
-        KomvikHost README — Multilingual Version
+        KomvikHost README — Multilingual Hybrid Version
         Languages: English 🇬🇧 | Deutsch 🇩🇪 | Русский 🇷🇺
 =====================================================
 -->
 
 <h1 align="center">Komvikhost</h1>
+
+<p align="center">The file contains CSS style and JavaScript.</p>
+<p align="center"> To view the information fully in three languages, open the readme file separately in your browser.</p>
 
 <p align="center">
   <button onclick="setLanguage('en')">🇬🇧 English</button>
@@ -26,17 +29,23 @@
   }
   button:hover { background-color: #444; }
   .lang-section { display: none; }
+  /* Default for GitHub (no JS) — show English */
+  #en { display: block; }
 </style>
 
 <script>
   function setLanguage(lang) {
     document.querySelectorAll('.lang-section').forEach(el => el.style.display = 'none');
-    document.getElementById(lang).style.display = 'block';
+    const selected = document.getElementById(lang);
+    if (selected) selected.style.display = 'block';
     localStorage.setItem('komvik_lang', lang);
   }
   document.addEventListener('DOMContentLoaded', () => {
-    const saved = localStorage.getItem('komvik_lang') || 'en';
-    setLanguage(saved);
+    const saved = localStorage.getItem('komvik_lang');
+    if (saved && document.getElementById(saved)) {
+      document.querySelectorAll('.lang-section').forEach(el => el.style.display = 'none');
+      document.getElementById(saved).style.display = 'block';
+    }
   });
 </script>
 
@@ -72,15 +81,13 @@ komvikhost/
 ├── firebase.json # Firebase configuration
 └── .firebaserc # Firebase project ID
 
-
-
 </div>
 
 ---
 
 <div id="de" class="lang-section">
 
-**KomvikHost** ist eine mit **Firebase** bereitgestellte Webplattform, die dazu entwickelt wurde, Anwendungen, Daten und Serverfunktionen in einer einzigen Cloud-Umgebung zu hosten und zu integrieren.
+**Komvikhost** ist eine mit **Firebase** bereitgestellte Webplattform, die dazu entwickelt wurde, Anwendungen, Daten und Serverfunktionen in einer einzigen Cloud-Umgebung zu hosten und zu integrieren.
 
 ### 🚀 Hauptfunktionen
 
@@ -107,7 +114,6 @@ komvikhost/
 ├── firestore.indexes.json
 ├── firebase.json # Firebase-Konfiguration
 └── .firebaserc # Firebase-Projekt-ID
-
 
 
 </div>
@@ -143,5 +149,6 @@ komvikhost/
 ├── firestore.indexes.json
 ├── firebase.json # Конфигурация Firebase
 └── .firebaserc # ID проекта Firebase
+
 
 </div>
