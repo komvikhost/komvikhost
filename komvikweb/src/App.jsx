@@ -5,7 +5,7 @@ import CookieConsent from "./components/CookieConsent";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Ich from "./pages/Ich";
-import Skills from "./pages/Skills";
+import Skills from "./pages/skills/Skills";
 import Zeugnisse from "./pages/Zeugnisse";
 import Projekte from "./pages/Projekte";
 import Blog from "./pages/Blog";

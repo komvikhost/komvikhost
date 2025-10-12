@@ -1,0 +1,78 @@
+{
+  "title": "My Skills and Technologies",
+  "subtitle": "Experience with various development areas.",
+  
+  "software": {
+    "title": "Software Development",
+    "labels": ["C", "Assembly", "C++", "Java", "C#", "Dart"],
+    "data": [50, 25, 80, 20, 40, 85],
+    "color": "#007ACC3e",
+    "descriptions": {
+      "C": "Low-level control, I use C for system programming and OS development.",
+      "Assembly": "I write Assembly for embedded systems and performance optimization.",
+      "C++": "Over 10 years developing high-performance applications using Eclipse, VSCode, and Qt.",
+      "Java": "Basic knowledge, about 1 year of experience.",
+      "C#": "Basic knowledge, completed a small project.",
+      "Dart": "Over 10 cross-platform projects last year."
+    }
+  },
+  "web": {
+    "title": "Web Development",
+    "labels": ["HTML5", "CSS", "PHP", "JavaScript"],
+    "data": [90, 75, 60, 35],
+    "color": "#FF6D003e",
+    "descriptions": {
+      "HTML5": "My knowledge is reflected in this page.",
+      "CSS": "Applied in styling this page.",
+      "PHP": "4 years experience overall.",
+      "JavaScript": "Understand code, limited practice."
+    }
+  },
+  "app": {
+    "title": "App Development",
+    "labels": ["Flutter", "Kotlin", "Swift"],
+    "data": [65, 25, 25],
+    "color": "#4CAF503e",
+    "descriptions": {
+      "Flutter": "Developed several apps, see projects.",
+      "Kotlin": "Experience through Flutter projects.",
+      "Swift": "Familiar with Xcode configuration."
+    }
+  },
+  "itc": {
+    "title": "IT Competence",
+    "labels": ["Workflow", "Git", "Graphic Design", "Hardware"],
+    "data": [50, 75, 80, 75],
+    "color": "#6C757D3e",
+    "descriptions": {
+      "Workflow": "Experience with Jira, Confluence, Bitbucket, Slack.",
+      "Git": "Use GitHub for version control.",
+      "Graphic Design": "Experience with GIMP, Figma, CorelDRAW.",
+      "Hardware": "Deep understanding of computer hardware and electronics."
+    }
+  },
+  "dtb": {
+    "title": "Databases",
+    "labels": ["Oracle", "SQL", "Firebase", "Mongo"],
+    "data": [20, 50, 60, 10],
+    "color": "#9C27B03e",
+    "descriptions": {
+      "Oracle": "Basic Oracle Database knowledge.",
+      "SQL": "Intermediate SQL skills, MySQL, SQLite.",
+      "Firebase": "Intermediate with Firestore and Authentication.",
+      "Mongo": "Basic knowledge, no practical experience."
+    }
+  },
+  "net": {
+    "title": "Networking",
+    "labels": ["Administration", "Servers", "Virtualization", "Cloud"],
+    "data": [65, 40, 75, 50],
+    "color": "#6a02253e",
+    "descriptions": {
+      "Administration": "Experience with TCP/IP, DNS, HTTP, SMTP protocols.",
+      "Servers": "Worked with Windows Server, Linux (Apache).",
+      "Virtualization": "Proficient with Proxmox, VMware, VirtualBox.",
+      "Cloud": "Experience with Google Cloud Platform (GCP)."
+    }
+  }
+}

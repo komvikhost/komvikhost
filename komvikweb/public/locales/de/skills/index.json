@@ -1,0 +1,79 @@
+{
+  
+  "title": "Meine Fähigkeiten und Technologien",
+  "subtitle": "Erfahrung in verschiedenen Entwicklungsbereichen.",
+  
+  "software": {
+    "title": "Softwareentwicklung",
+    "labels": ["C", "Assembly", "C++", "Java", "C#", "Dart"],
+    "data": [50, 25, 80, 20, 40, 85],
+    "color": "#007ACC3e",
+    "descriptions": {
+      "C": "Niedrigebene-Kontrolle, ich benutze C für Systemprogrammierung und Betriebssystementwicklung.",
+      "Assembly": "Ich schreibe Assembly für eingebettete Systeme und Performance-Optimierung.",
+      "C++": "Über 10 Jahre Erfahrung in der Entwicklung leistungsstarker Anwendungen mit Eclipse, VSCode und Qt.",
+      "Java": "Grundkenntnisse, ca. 1 Jahr Erfahrung.",
+      "C#": "Grundkenntnisse, kleines Projekt abgeschlossen.",
+      "Dart": "Über 10 plattformübergreifende Projekte im letzten Jahr."
+    }
+  },
+  "web": {
+    "title": "Webentwicklung",
+    "labels": ["HTML5", "CSS", "PHP", "JavaScript"],
+    "data": [90, 75, 60, 35],
+    "color": "#FF6D003e",
+    "descriptions": {
+      "HTML5": "Mein Wissen spiegelt sich in dieser Seite wider.",
+      "CSS": "Angewendet beim Styling dieser Seite.",
+      "PHP": "4 Jahre Erfahrung insgesamt.",
+      "JavaScript": "Code verstehen, begrenzte Praxis."
+    }
+  },
+  "app": {
+    "title": "App-Entwicklung",
+    "labels": ["Flutter", "Kotlin", "Swift"],
+    "data": [65, 25, 25],
+    "color": "#4CAF503e",
+    "descriptions": {
+      "Flutter": "Mehrere Apps entwickelt, siehe Projekte.",
+      "Kotlin": "Erfahrung über Flutter-Projekte.",
+      "Swift": "Vertraut mit Xcode-Konfiguration."
+    }
+  },
+  "itc": {
+    "title": "IT-Kompetenz",
+    "labels": ["Workflow", "Git", "Grafikdesign", "Hardware"],
+    "data": [50, 75, 80, 75],
+    "color": "#6C757D3e",
+    "descriptions": {
+      "Workflow": "Erfahrung mit Jira, Confluence, Bitbucket, Slack.",
+      "Git": "Verwendung von GitHub für Versionskontrolle.",
+      "Grafikdesign": "Erfahrung mit GIMP, Figma, CorelDRAW.",
+      "Hardware": "Tiefes Verständnis von Computerhardware und Elektronik."
+    }
+  },
+  "dtb": {
+    "title": "Datenbanken",
+    "labels": ["Oracle", "SQL", "Firebase", "Mongo"],
+    "data": [20, 50, 60, 10],
+    "color": "#9C27B03e",
+    "descriptions": {
+      "Oracle": "Grundkenntnisse in Oracle-Datenbanken.",
+      "SQL": "Mittlere SQL-Kenntnisse, MySQL, SQLite.",
+      "Firebase": "Mittelstufe mit Firestore und Authentifizierung.",
+      "Mongo": "Grundkenntnisse, keine praktische Erfahrung."
+    }
+  },
+  "net": {
+    "title": "Netzwerke",
+    "labels": ["Administration", "Server", "Virtualisierung", "Cloud"],
+    "data": [65, 40, 75, 50],
+    "color": "#6a02253e",
+    "descriptions": {
+      "Administration": "Erfahrung mit TCP/IP, DNS, HTTP, SMTP-Protokollen.",
+      "Server": "Arbeit mit Windows Server, Linux (Apache).",
+      "Virtualisierung": "Erfahren mit Proxmox, VMware, VirtualBox.",
+      "Cloud": "Erfahrung mit Google Cloud Platform (GCP)."
+    }
+  }
+}
