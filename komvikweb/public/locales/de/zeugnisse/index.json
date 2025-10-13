@@ -6,6 +6,16 @@
     "title2": "Bildungsnachweise",
     "subtitle": "Meine beruflichen Erfahrungen und Referenzen.",
     "timeline": [
+
+      {
+        "year": "2025",
+        "company": "Freiberufliche Projekte im Bereich App-Entwicklung",
+        "position": "Eigenständige Entwicklung",
+        "period": "05.2024 – 2025",
+        "desc": "Freiberufliche Arbeit mit Schwerpunkt auf Flutter/Dart-App-Entwicklung. Aktuell Entwicklung der App 'NextCheckUp' (noch in Arbeit). Fokus auf Architektur, API-Integration und Testing. Weitere Informationen unter www.komvik.de → Projekte.",
+        "tech": "VSCode, HTML5, React, Vite, Dart, Flutter, TypeScript, JavaScript, Tailwind, SQLite, Firebase, GitHub.",
+        "file": ""
+      },
       {
         "year": "2023",
         "company": "Weblizards GmbH",

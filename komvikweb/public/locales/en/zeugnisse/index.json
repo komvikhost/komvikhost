@@ -7,6 +7,15 @@
     "subtitle": "My professional experience and references.",
     "timeline": [
       {
+        "year": "2024–2025",
+        "company": "Freelance Projects in App Development",
+        "position": "Independent Development",
+        "period": "05.2024 – 2025",
+        "desc": "Freelance work focused on Flutter/Dart app development. Currently developing the app 'NextCheckUp' (still in progress). Main focus areas include architecture, API integration, and testing. More information available at www.komvik.de → projects.",
+        "tech": "VSCode, HTML5, React, Vite, Dart, Flutter, TypeScript, JavaScript, Tailwind, SQLite, Firebase, GitHub.",
+        "file": ""
+      },
+      {
         "year": "2023",
         "company": "Weblizards GmbH",
         "position": "Software Developer",
