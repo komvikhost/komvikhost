@@ -1,0 +1,110 @@
+{
+  "title": "My Certificates",
+  "subtitle": "Overview of my professional experience and references.",
+  "arbeits": {
+    "title": "Work Certificates",
+    "title2": "Educational Certificates",
+    "subtitle": "My professional experience and references.",
+    "timeline": [
+      {
+        "year": "2023",
+        "company": "Weblizards GmbH",
+        "position": "Software Developer",
+        "period": "09.2022 – 01.2023",
+        "desc": "Web development in Pimcore. Full Stack Developer.",
+        "tech": "Linux(Ubuntu), PhpStorm, Pimcore, HTML, PHP, Javascript, CSS(Less), MySql, Git, Confluence, Bitbucket, Slack.",
+        "file": "/pdf/Zeugnis_Weblizards.pdf"
+      },
+      {
+        "year": "2019",
+        "company": "Imes GmbH",
+        "position": "Software Developer",
+        "period": "03.2012 – 12.2019",
+        "desc": "Application programming for measurement and monitoring systems.",
+        "tech": "Windows(7/10), Borland C++, Embarcadero C++, FireDAC, SQLite. Algorithm optimization, C++ software development, test documentation.",
+        "file": "/pdf/Zeugnis_Imes.pdf"
+      },
+      {
+        "year": "2011",
+        "company": "GMH Umwelt",
+        "position": "Service Engineer",
+        "period": "08.2011 – 12.2011",
+        "desc": "Commissioning, maintenance and troubleshooting of CHP units.",
+        "tech": "Windows 7, STM32. Problem analysis, firmware updates.",
+        "file": "/pdf/Zeugnis_GmhUmwelt.pdf"
+      },
+      {
+        "year": "2010",
+        "company": "H+E Elektro GmbH",
+        "position": "Information Electronics Technician",
+        "period": "08.2010 – 04.2011",
+        "desc": "Installation and repair of ELA and media technology systems.",
+        "tech": "Windows(7/IoT), AV media technology programming.",
+        "file": "/pdf/Zeugnis_H_Ellermann.pdf"
+      },
+      {
+        "year": "2009",
+        "company": "SSB",
+        "position": "Manager",
+        "period": "07.2009 – 06.2010",
+        "desc": "Management and coordination of the company (fixed-term contract).",
+        "tech": "Staff management, planning, organization and control of company processes.",
+        "file": "/pdf/Zeugnis_SSB.pdf"
+      },
+      {
+        "year": "2008",
+        "company": "BBS Pottgraben",
+        "position": "System Administrator",
+        "period": "08.2008 – 06.2009",
+        "desc": "Maintenance of 700 in-house PCs across 3 locations.",
+        "tech": "Windows (personal, workstations, servers). Linux (various desktop and server versions).",
+        "file": "/pdf/Zeugnis_BBS.pdf"
+      },
+      {
+        "year": "2007",
+        "company": "Kath. Kirchengemeinde St. Maria Rosenkranz",
+        "position": "Web Developer",
+        "period": "07.2007 – 01.2008",
+        "desc": "Development and creation of a homepage. Network administration and database maintenance (MySql).",
+        "tech": "Windows Server 2003, SQL, HTML, CSS.",
+        "file": "/pdf/Zeugnis_Rosenkranz.pdf"
+      },
+      {
+        "year": "2005",
+        "company": "Nicetec GmbH",
+        "position": "IT Support",
+        "period": "01.2005 – 06.2005",
+        "desc": "Development of ticket system and database maintenance (MySql). Web server administration (Apache).",
+        "tech": "Linux + WebServer, PHP + MySQL + HTML + CSS.",
+        "file": "/pdf/Zeugnis_Nicetec.pdf"
+      },
+      {
+        "year": "2004",
+        "company": "KiKxxl GmbH",
+        "position": "IT Assistant",
+        "period": "10.2003 – 11.2004",
+        "desc": "Programming (internal software). Technical hotline support (Internet Support).",
+        "tech": "Linux (Debian), Zend, Javascript, MySql, HTML, CSS.",
+        "file": "/pdf/Zeugnis_KiKxxl.pdf"
+      },
+      {
+        "year": "2001",
+        "company": "Volkshochschule der Stadt Osnabrück",
+        "position": "IT Instructor",
+        "period": "12.2000 – 11.2001",
+        "desc": "Teaching a computer course.",
+        "tech": "Linux(Suse), Windows.",
+        "file": "/pdf/Zeugnis_VHS.pdf"
+      },
+      {
+        "year": "All",
+        "company": "Complete Certificate Collection",
+        "position": "",
+        "period": "",
+        "desc": "All certificates in a single document.",
+        "tech": "",
+        "file": "/pdf/Zeugnisse_Alle.pdf"
+      }
+    ]
+  }
+}

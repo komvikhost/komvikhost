@@ -1,0 +1,44 @@
+{
+  "title": "Educational Certificates",
+  "subtitle": "My degrees and certifications",
+  "bildungs": {
+  "title": "Educational Certificates",
+  "timeline": [
+    
+    {
+      "year": "2025",
+      "name": "App Developer",
+      "institution": "App Academy",
+      "desc": "Full-time App Developer training – UX/UI, Dart, Flutter, App Ecosystem & Publishing (2024–2025).",
+      "file": "/pdf/CertificateAppEn.pdf"
+    },    
+    {
+      "year": "2022",
+      "name": "Linux course",
+      "institution": "Hasso-Plattner-Institut (HPI)",
+      "desc": "Online Course (Feb–Mar 2022): Linux Command Line – navigation, file and directory management, filters, pipes, and console tools.",
+      "file": "/pdf/CertificatLinux2022.pdf"
+    },
+    {
+      "year": "2003",
+      "name": "Software Engineer Course (TAP)",
+      "institution": "TÜV Academy Pfalz, Kaiserslautern",
+      "desc": "Participation in the Software Engineer course from September 23, 2002 to July 11, 2003. Topics included:  programming languages C, C++, Java and C#, Windows 2000, UML modeling, Oracle databases.",
+      "file": "/pdf/CertificatTUV.pdf"
+    },
+    {
+      "year": "1994",
+      "name": "Diploma Engineer (University of Applied Sciences)",
+      "institution": "Polytechnic University of Kharkiv, Ukraine",
+      "desc": "Studied from 1988 to 1994 in Automation and Remote Control Technology, with a focus on microprocessors, microcomputers, programming and algorithm languages, electronic components, electric machines, and control engineering.",
+      "file": "/pdf/DiplomFH.pdf"
+    },
+    {
+      "year": "1984",
+      "name": "Diploma Technician (Microprocessors for Machine Tools & Robots)",
+      "institution": "Technical School",
+      "desc": "Graduated from the Radio Engineering Technical School with a focus on Robotics. Solid knowledge of microprocessor systems for machines and robots. Grade: good.",
+      "file": "/pdf/Diplom_UA_HRTT.pdf"
+    }
+  ]
+}}

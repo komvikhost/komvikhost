@@ -15,7 +15,7 @@ i18n
     interpolation: {
       escapeValue: false // Чтобы не экранировать HTML в переводах
     },
-    ns: ['blog', 'footer', 'ich', 'menu', 'skills', 'datenschutz', 'cookies', 'home', 'kontakt', 'projecte', 'zeugnisse'], // Массив пространств имен
+    ns: ['menu', 'skills', 'datenschutz', 'cookies', 'home', 'projecte', 'bildungsnachweise', 'zeugnisse'], // Массив пространств имен
     
     defaultNS: 'cookies', // Стандартное пространство имен
     debug: true, // Включаем вывод отладочных сообщений
