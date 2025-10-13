@@ -17,40 +17,51 @@
     }
   },
   "web": {
-    "title": "Web Development",
-    "labels": ["HTML5", "CSS", "PHP", "JavaScript"],
-    "data": [90, 75, 60, 35],
-    "color": "#FF6D003e",
-    "descriptions": {
-      "HTML5": "My knowledge is reflected in this page.",
-      "CSS": "Applied in styling this page.",
-      "PHP": "4 years experience overall.",
-      "JavaScript": "Understand code, limited practice."
-    }
-  },
+  "title": "Web Development",
+  "labels": ["HTML5", "CSS", "PHP", "JavaScript", "TypeScript", "React", "Vue", "Tailwind"],
+  "data": [80, 75, 50, 45, 50, 65, 55, 65],
+  "color": "#FF6D003e",
+  "descriptions": {
+    "HTML5": "My knowledge is reflected directly in this website – clean and semantic code structure.",
+    "CSS": "Design and layout using Tailwind CSS and modern Flex/Grid techniques.",
+    "PHP": "Over 4 years of experience in backend development and dynamic content handling.",
+    "JavaScript": "Understanding of logic and DOM manipulation, with limited hands-on practice.",
+    "TypeScript": "Actively used for writing clean, scalable code in modern projects.",
+    "React": "Frontend development focused on hooks, component design, and state management.",
+    "Vue": "Experience with Vue.js for modular and interactive user interfaces.",
+    "Tailwind": "Efficient styling through a utility-first approach and rapid prototyping."
+  }
+},
   "app": {
-    "title": "App Development",
-    "labels": ["Flutter", "Kotlin", "Swift"],
-    "data": [65, 25, 25],
-    "color": "#4CAF503e",
-    "descriptions": {
-      "Flutter": "Developed several apps, see projects.",
-      "Kotlin": "Experience through Flutter projects.",
-      "Swift": "Familiar with Xcode configuration."
-    }
-  },
+  "title": "App Development",
+  "labels": ["Flutter", "Kotlin", "Swift", "React Native", "Electron", "Android Studio", "Xcode"],
+  "data": [70, 35, 35, 25, 25, 60, 60],
+  "color": "#4CAF503e",
+  "descriptions": {
+    "Flutter": "Developed multiple cross-platform apps – fast performance and elegant design.",
+    "Kotlin": "Used for Android modules and native integration within Flutter projects.",
+    "Swift": "Basic experience with iOS development and UI implementation.",
+    "React Native": "Familiar with component-driven mobile architecture, though not actively used in projects.",
+    "Electron": "Basic understanding of desktop app structure based on web technologies.",
+    "Android Studio": "Primary environment for Android development and Flutter builds.",
+    "Xcode": "Configured and tested iOS apps on macOS – focused on deployment and debugging."
+  }
+},
   "itc": {
-    "title": "IT Competence",
-    "labels": ["Workflow", "Git", "Graphic Design", "Hardware"],
-    "data": [50, 75, 80, 75],
-    "color": "#6C757D3e",
-    "descriptions": {
-      "Workflow": "Experience with Jira, Confluence, Bitbucket, Slack.",
-      "Git": "Use GitHub for version control.",
-      "Graphic Design": "Experience with GIMP, Figma, CorelDRAW.",
-      "Hardware": "Deep understanding of computer hardware and electronics."
-    }
-  },
+  "title": "IT Competence",
+  "labels": ["Workflow", "Git", "Graphic Design", "Hardware", "Linux", "Docker", "CI/CD"],
+  "data": [60, 80, 85, 75, 55, 45, 40],
+  "color": "#6C757D3e",
+  "descriptions": {
+    "Workflow": "Experience with Jira, Confluence, Bitbucket, and Slack.",
+    "Git": "Daily use of GitHub for version control and team collaboration.",
+    "Graphic Design": "Proficient with GIMP, Figma, and CorelDRAW – from UI design to prototyping.",
+    "Hardware": "Deep understanding of computer hardware, electronics, and system architecture.",
+    "Linux": "Familiar with shell scripting, package management, and server administration.",
+    "Docker": "Basic knowledge of containerization and environment management.",
+    "CI/CD": "Understanding of build pipelines and automated deployment processes."
+  }
+},
   "dtb": {
     "title": "Databases",
     "labels": ["Oracle", "SQL", "Firebase", "Mongo"],

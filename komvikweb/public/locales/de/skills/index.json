@@ -6,7 +6,7 @@
   "software": {
     "title": "Softwareentwicklung",
     "labels": ["C", "Assembly", "C++", "Java", "C#", "Dart"],
-    "data": [50, 25, 80, 20, 40, 85],
+    "data": [50, 35, 85, 30, 40, 75],
     "color": "#007ACC3e",
     "descriptions": {
       "C": "Niedrigebene-Kontrolle, ich benutze C für Systemprogrammierung und Betriebssystementwicklung.",
@@ -18,40 +18,51 @@
     }
   },
   "web": {
-    "title": "Webentwicklung",
-    "labels": ["HTML5", "CSS", "PHP", "JavaScript"],
-    "data": [90, 75, 60, 35],
-    "color": "#FF6D003e",
-    "descriptions": {
-      "HTML5": "Mein Wissen spiegelt sich in dieser Seite wider.",
-      "CSS": "Angewendet beim Styling dieser Seite.",
-      "PHP": "4 Jahre Erfahrung insgesamt.",
-      "JavaScript": "Code verstehen, begrenzte Praxis."
-    }
-  },
+  "title": "Webentwicklung",
+  "labels": ["HTML5", "CSS", "PHP", "JavaScript", "TypeScript", "React", "Vue", "Tailwind"],
+  "data": [80, 75, 50, 45, 50, 65, 55, 65],
+  "color": "#FF6D003e",
+  "descriptions": {
+    "HTML5": "Mein Wissen zeigt sich direkt in dieser Webseite – strukturierter, semantischer Code.",
+    "CSS": "Gestaltung und Layout mit Tailwind CSS und modernen Flex/Grid-Techniken.",
+    "PHP": "Über 4 Jahre Erfahrung im Backend-Development und dynamischer Inhaltsverarbeitung.",
+    "JavaScript": "Verständnis von Logik und DOM-Manipulation, eingeschränkte Praxis.",
+    "TypeScript": "Aktiv im Einsatz für sauberen, skalierbaren Code in modernen Projekten.",
+    "React": "Frontend-Entwicklung mit Hooks, Komponenten-Design und State-Management.",
+    "Vue": "Erfahrung mit Vue.js für modulare, interaktive Benutzeroberflächen.",
+    "Tailwind": "Effizientes Styling durch Utility-First-Ansatz und schnelle Prototypenerstellung."
+  }
+},
   "app": {
-    "title": "App-Entwicklung",
-    "labels": ["Flutter", "Kotlin", "Swift"],
-    "data": [65, 25, 25],
-    "color": "#4CAF503e",
-    "descriptions": {
-      "Flutter": "Mehrere Apps entwickelt, siehe Projekte.",
-      "Kotlin": "Erfahrung über Flutter-Projekte.",
-      "Swift": "Vertraut mit Xcode-Konfiguration."
-    }
-  },
+  "title": "App-Entwicklung",
+  "labels": ["Flutter", "Kotlin", "Swift", "React Native", "Electron", "Android Studio", "Xcode"],
+  "data": [70, 35, 35, 25, 25, 60, 60],
+  "color": "#4CAF503e",
+  "descriptions": {
+    "Flutter": "Mehrere plattformübergreifende Apps entwickelt – hohe Performance und elegantes Design.",
+    "Kotlin": "Eingesetzt für Android-Module und native Integration innerhalb von Flutter-Projekten.",
+    "Swift": "Grundkenntnisse in iOS-Entwicklung und UI-Umsetzung.",
+    "React Native": "Vertraut mit komponentenbasierter Mobile-Architektur, bisher ohne eigene Projekte.",
+    "Electron": "Grundverständnis von Desktop-Apps auf Basis von Webtechnologien.",
+    "Android Studio": "Hauptumgebung für Android-Entwicklung und Flutter-Builds.",
+    "Xcode": "iOS-Apps auf macOS konfiguriert und getestet – Fokus auf Deployment und Debugging."
+  }
+},
   "itc": {
-    "title": "IT-Kompetenz",
-    "labels": ["Workflow", "Git", "Grafikdesign", "Hardware"],
-    "data": [50, 75, 80, 75],
-    "color": "#6C757D3e",
-    "descriptions": {
-      "Workflow": "Erfahrung mit Jira, Confluence, Bitbucket, Slack.",
-      "Git": "Verwendung von GitHub für Versionskontrolle.",
-      "Grafikdesign": "Erfahrung mit GIMP, Figma, CorelDRAW.",
-      "Hardware": "Tiefes Verständnis von Computerhardware und Elektronik."
-    }
-  },
+  "title": "IT-Kompetenz",
+  "labels": ["Workflow", "Git", "Grafikdesign", "Hardware", "Linux", "Docker", "CI/CD"],
+  "data": [60, 80, 85, 75, 55, 45, 40],
+  "color": "#6C757D3e",
+  "descriptions": {
+    "Workflow": "Erfahrung mit Jira, Confluence, Bitbucket und Slack.",
+    "Git": "Tägliche Nutzung von GitHub für Versionskontrolle und Teamarbeit.",
+    "Grafikdesign": "Erfahrung mit GIMP, Figma und CorelDRAW – von UI-Design bis Prototyping.",
+    "Hardware": "Tiefes Verständnis von Computerhardware, Elektronik und Systemaufbau.",
+    "Linux": "Vertraut mit Shell, Paketverwaltung und Server-Administration.",
+    "Docker": "Grundkenntnisse in Containerisierung und Umgebungsverwaltung.",
+    "CI/CD": "Verständnis von Build-Pipelines und automatisierten Deployments."
+  }
+},
   "dtb": {
     "title": "Datenbanken",
     "labels": ["Oracle", "SQL", "Firebase", "Mongo"],
