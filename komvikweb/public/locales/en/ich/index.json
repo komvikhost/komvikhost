@@ -1,0 +1,73 @@
+{
+  "faces": [
+    {
+      "type": "charkiw",
+      "ext": "gif",
+      "title": "",
+      "subtitle": "",
+      "text": [
+        "The first image unfolds the panorama of my hometown.",
+        "A click on the button will take you on a journey through my educational path."
+      ],
+      "index_small": "KHARKIV"
+    },
+    {
+      "type": "hrtt",
+      "ext": "png",
+      "title": "KHARKIV",
+      "subtitle": "Radio Technical College",
+      "text": [
+        "1980 – 1984",
+        "Vocational training at the Kharkiv Radio Technical College in the field of machine tools and robotics.",
+        "The Kharkiv Radio Technical College enjoys a high reputation in technical education. It is one of the leading institutions of its kind in Ukraine, and the diploma is highly valued and recognized on the labor market."
+      ],
+      "index": "HRTT"
+    },
+    {
+      "type": "hpi",
+      "ext": "png",
+      "title": "KHARKIV",
+      "subtitle": "National Technical University",
+      "text": [
+        "1988 – 1994",
+        "Studies at the Kharkiv Polytechnic Institute (Faculty of Automation and Remote Control). Degree: Diploma (good).",
+        "The National Technical University 'Kharkiv Polytechnic Institute' is renowned for its excellence in education and research. It is one of the leading universities in Ukraine and enjoys international recognition."
+      ],
+      "index": "KhPI"
+    },
+    {
+      "type": "tuev",
+      "ext": "png",
+      "title": "KAISERSLAUTERN",
+      "subtitle": "TÜV Academy Palatinate",
+      "text": [
+        "2002 – 2003",
+        "Completed professional training as a Software Engineer (TAP) at TÜV Academy Palatinate.",
+        "The Software Engineering program at TÜV Academy Palatinate in Kaiserslautern is highly regarded in the field of IT education. As a leading institution in vocational qualification, it provides a respected certificate that represents a valuable credential in the job market."
+      ],
+      "index": "TÜV"
+    },
+    {
+      "type": "app",
+      "ext": "png",
+      "title": "BERLIN",
+      "subtitle": "App Academy",
+      "text": [
+        "2024 – 2025",
+        "Completed training as an App Developer at App Academy, Berlin, focusing on Dart, Flutter, UI/UX design, and cloud services for cross-platform development.",
+        "The App Academy program is well known for its high standards in app development. As a leading institution in IT education, it awards a highly respected certificate that is a valuable qualification in the tech industry."
+      ],
+      "index": "APP"
+    },
+    {
+      "type": "sport_hobby",
+      "ext": "gif",
+      "title": "HOBBY & SPORTS",
+      "subtitle": "My Life Beyond Work",
+      "text": [
+        "After exploring my educational background, I would like to show you a collection of moments from my hobbies and sports activities, giving you a complete picture of who I am."
+      ],
+      "index": "End"
+    }
+  ]
+}

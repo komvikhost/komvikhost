@@ -1,0 +1,73 @@
+{
+  "faces": [
+    {
+      "type": "charkiw",
+      "ext": "gif",
+      "title": "",
+      "subtitle": "",
+      "text": [
+        "Auf dem ersten Bild entfaltet sich das Panorama meiner Heimatstadt.",
+        "Ein Klick auf die Schaltfläche führt Sie auf eine Reise durch meine Bildungslaufbahn."
+      ],
+      "index_small": "CHARKIW"
+    },
+    {
+      "type": "hrtt",
+      "ext": "png",
+      "title": "CHARKIW",
+      "subtitle": "Radiotechnischen Fachkolleg",
+      "text": [
+        "1980 – 1984",
+        "Die Berufsausbildung am Charkiwer Radiotechnischen Fachkollege im Bereich Werkmaschinen und Robotik.",
+        "Der Charkiwer Radiotechnische Fachkollege genießt ein hohes Ansehen im Bereich der technischen Ausbildung..."
+      ],
+      "index": "HRTT"
+    },
+    {
+      "type": "hpi",
+      "ext": "png",
+      "title": "CHARKIW",
+      "subtitle": "National Technical University",
+      "text": [
+        "1988 – 1994",
+        "Studium am polytechnischen Institut der Universität Charkov (Fach: Automatik und Fernschaltung), Abschluss: Diplom (gut).",
+        "Die Nationale Technische Universität „Charkiw Polytechnisches Institut“ ist bekannt für ihren hohen Ruf im Bereich der Bildung und Forschung..."
+      ],
+      "index": "KhPI"
+    },
+    {
+      "type": "tuev",
+      "ext": "png",
+      "title": "KAISERSLAUTERN",
+      "subtitle": "TÜV Akademie Pfalz",
+      "text": [
+        "2002 – 2003",
+        "Abgeschlossene Weiterbildung zum Softwareingenieur (TAP) an der TÜV Akademie Pfalz.",
+        "Der Softwareingenieurkurs an der TÜV Akademie Pfalz in Kaiserslautern genießt einen hervorragenden Ruf im Bereich der IT-Weiterbildung..."
+      ],
+      "index": "TÜV"
+    },
+    {
+      "type": "app",
+      "ext": "png",
+      "title": "BERLIN",
+      "subtitle": "App Akademie",
+      "text": [
+        "2024 – 2025",
+        "Abgeschlossene Ausbildung zum App-Entwickler an der App Akademie, Berlin, mit Fokus auf Dart, Flutter, UI/UX-Design und Cloud-Services für Cross-Platform-Entwicklung.",
+        "Der Kurs an der App Akademie genießt einen ausgezeichneten Ruf im Bereich der App-Entwicklung..."
+      ],
+      "index": "APP"
+    },
+    {
+      "type": "sport_hobby",
+      "ext": "gif",
+      "title": "HOBBY & SPORT",
+      "subtitle": "Mein Freizeitleben",
+      "text": [
+        "Nachdem Sie meine Ausbildung gesehen haben, möchte ich Ihnen nun eine Sammlung von Momenten aus meinen Hobbys und sportlichen Aktivitäten zeigen, damit Sie ein vollständiges Bild von mir bekommen."
+      ],
+      "index": "Ende"
+    }
+  ]
+}
