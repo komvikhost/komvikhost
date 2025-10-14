@@ -9,36 +9,36 @@
       "year": "2025",
       "name": "App-Entwickler",
       "institution": "App Akademie",
-      "desc": "Vollzeit-Qualifizierung als App-Entwickler:in – UX/UI, Dart, Flutter, App-Ökosystem & Publishing (2024–2025).",
-      "file": "/pdf/CertificateAppDe.pdf"
+      "desc": "Vollzeit-Qualifizierung als App-Entwickler – UX/UI, Dart, Flutter, App-Ökosystem & Publishing (2024–2025).",
+      "file": "/pdf/zeugnisse/CertificateAppDe.pdf"
     },    
     {
       "year": "2022",
       "name": "Linux Kurs",
       "institution": "Hasso-Plattner-Institut (HPI)",
       "desc": "Online-Kurs (02/2022–03/2022): Linux-Kommandozeile – Navigation, Datei- und Verzeichnisverwaltung, Filter, Pipes und Konsolenanwendungen.",
-      "file": "/pdf/CertificatLinux2022.pdf"
+      "file": "/pdf/zeugnisse/CertificatLinux2022.pdf"
     },
    {
       "year": "2003",
-      "name": "Lehrgang Softwareingenieur/-in (TAP)",
+      "name": "Lehrgang Softwareingenieur (TAP)",
       "institution": "TÜV Akademie Pfalz, Kaiserslautern",
-      "desc": "Teilnahme am Lehrgang Softwareingenieur/-in vom 23. September 2002 bis 11. Juli 2003. Programmiersprachen C, C++, Java und C#, Windows 2000, UML-Modellierung, Oracle-Datenbanken.",
-      "file": "/pdf/CertificatTUV.pdf"
+      "desc": "Teilnahme am Lehrgang Softwareingenieur vom 23. September 2002 bis 11. Juli 2003. Programmiersprachen C, C++, Java und C#, Windows 2000, UML-Modellierung, Oracle-Datenbanken.",
+      "file": "/pdf/zeugnisse/CertificatTUV.pdf"
     },
     {
       "year": "1994",
       "name": "Diplom Ingenieur (Fachhochschule)",
       "institution": "Polytechnische Hochschule Charkiv, Ukraine",
       "desc": "Studium von 1988 bis 1994 in Automatik und Fernwirktechnik. Schwerpunkt auf Mikroprozessoren, Mikrocomputern, Algorithmensprachen und Programmierung, Elektronischen Elementen, Elektromaschinen und Steuerungstechnik.",
-      "file": "/pdf/DiplomFH.pdf"
+      "file": "/pdf/zeugnisse/DiplomFH.pdf"
     },
     {
       "year": "1984",
       "name": "Diplom-Techniker (Mikroprozessoren für Werkmaschinen & Roboter)",
       "institution": "Technikschule ",
       "desc": "Abschluss an der Radiotechnischen Fachschule mit Schwerpunkt Robotik. Fundierte Kenntnisse in Mikroprozessorsystemen für Maschinen und Roboter. Abschluss: gut.",
-      "file": "/pdf/Diplom_UA_HRTT.pdf"
+      "file": "/pdf/zeugnisse/Diplom_UA_HRTT.pdf"
     }
   ]
 }

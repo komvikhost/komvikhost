@@ -23,7 +23,7 @@
         "period": "09.2022 – 01.2023",
         "desc": "Webentwicklung in Pimcore. Full Stack Developer.",
         "tech": "Linux(Ubuntu), PhpStorm, Pimcore, HTML, PHP, Javascript, CSS(Less), MySql, Git, Confluence, Bitbucket, Slack.",
-        "file": "/pdf/Zeugnis_Weblizards.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_Weblizards.pdf"
       },
       {
         "year": "2019",
@@ -32,7 +32,7 @@
         "period": "03.2012 – 12.2019",
         "desc": "Anwendungsprogrammierung für Mess- und Überwachungssysteme.",
         "tech": "Windows(7/10), Borland C++, Embarcadero C++, FireDAC, SQLite. Optimierung von Algorithmen, Softwareentwicklung in C++. Software-Freigabetests inklusive Testdokumentation.",
-        "file": "/pdf/Zeugnis_Imes.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_Imes.pdf"
       },
       {
         "year": "2011",
@@ -41,7 +41,7 @@
         "period": "08.2011 – 12.2011",
         "desc": "Inbetriebnahme, Wartung und Fehlerbehebung von BHKW.",
         "tech": "Windows 7, STM32. Problemanalyse, Firmware aktualisieren.",
-        "file": "/pdf/Zeugnis_GmhUmwelt.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_GmhUmwelt.pdf"
       },
       {
         "year": "2010",
@@ -50,7 +50,7 @@
         "period": "08.2010 – 04.2011",
         "desc": "Aufbau und Reparatur von (ELA) und Medientechnischen Anlagen.",
         "tech": "Windows(7/IoT), Programmieren AV-Medientechnik.",
-        "file": "/pdf/Zeugnis_H_Ellermann.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_H_Ellermann.pdf"
       },
       {
         "year": "2009",
@@ -59,7 +59,7 @@
         "period": "07.2009 – 06.2010",
         "desc": "Verwaltung und Koordination des Unternehmens (befristetes Arbeitsverhältnis).",
         "tech": "Mitarbeiterführung, Management, Planung, Organisation und Kontrolle im Unternehmen.",
-        "file": "/pdf/Zeugnis_SSB.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_SSB.pdf"
       },
       {
         "year": "2008",
@@ -68,7 +68,7 @@
         "period": "08.2008 – 06.2009",
         "desc": "Betreuung der 700 hauseigenen PCs an 3 Standorten.",
         "tech": "Windows (Personal, Workstations, Server). Linux (verschiedene Desktop- und Server-Versionen).",
-        "file": "/pdf/Zeugnis_BBS.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_BBS.pdf"
       },
       {
         "year": "2007",
@@ -77,7 +77,7 @@
         "period": "07.2007 – 01.2008",
         "desc": "Entwicklung und Erstellung einer Homepage. Netzwerkadministration und Datenbankpflege (MySql).",
         "tech": "Windows Server 2003, SQL, HTML, CSS.",
-        "file": "/pdf/Zeugnis_Rosenkranz.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_Rosenkranz.pdf"
       },
       {
         "year": "2005",
@@ -86,7 +86,7 @@
         "period": "01.2005 – 06.2005",
         "desc": "Entwicklung Ticketsystem und Datenbankpflege (MySql). Netzwerkadministration WebServer Apache.",
         "tech": "Linux + WebServer, PHP + MySQL + HTML + CSS.",
-        "file": "/pdf/Zeugnis_Nicetec.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_Nicetec.pdf"
       },
       {
         "year": "2004",
@@ -95,7 +95,7 @@
         "period": "10.2003 – 11.2004",
         "desc": "Programmierung (interne Software). Technische Hotline Betreuung (Internet Support).",
         "tech": "Linux (Debian), Zend, Javascript, MySql, HTML, CSS.",
-        "file": "/pdf/Zeugnis_KiKxxl.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_KiKxxl.pdf"
       },
       {
         "year": "2001",
@@ -104,7 +104,7 @@
         "period": "12.2000 – 11.2001",
         "desc": "Einen Computerkurs unterrichten.",
         "tech": "Linux(Suse), Windows.",
-        "file": "/pdf/Zeugnis_VHS.pdf"
+        "file": "/pdf/zeugnisse/Zeugnis_VHS.pdf"
       },
       {
         "year": "Alle",
@@ -113,7 +113,7 @@
         "period": "",
         "desc": "Alle Zeugnisse in einem Dokument.",
         "tech": "",
-        "file": "/pdf/Zeugnisse_Alle.pdf"
+        "file": "/pdf/zeugnisse/Zeugnisse_Alle.pdf"
       }
     ]
   }

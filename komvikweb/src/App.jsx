@@ -9,7 +9,7 @@ import Skills from "./pages/skills/Skills";
 import Zeugnisse from "./pages/zeugnisse/Zeugnisse";
 import Projekte from "./pages/Projekte";
 import Blog from "./pages/Blog";
-import Kontakt from "./pages/Kontakt";
+import Kontakt from "./pages/kontakt/Kontakt";
 import "./i18n"; 
 
 

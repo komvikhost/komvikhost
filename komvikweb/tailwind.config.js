@@ -15,6 +15,8 @@ module.exports = {
         'shoulders-menu': ['"Big Shoulders Display"', 'sans-serif'], // Шрифт с большой высотой
         'roboto-contact': ['"Roboto"', 'sans-serif'], // Шрифт для страницы контактов (Roboto)
         'open-sans-contact': ['"Open Sans"', 'sans-serif'], // Альтернативный шрифт для контактов (Open Sans)
+        'dosis': ['"Dosis"', 'sans-serif'],
+        'poppins': ['"Poppins"', 'sans-serif'],
       },
       
        // _______________Настройки размеров шрифта для меню
