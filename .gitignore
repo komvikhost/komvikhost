@@ -46,6 +46,7 @@ Thumbs.db
 
 # === Temp and help file ===
 package.json
+HELP_all_consol_comands.md
 HELP_deploy.md
 README_all.md
 README_firebase_all.md
@@ -53,3 +54,6 @@ README_firebase_install.md
 README_git_github.md
 README_add_functionality.md
 README_locales.md
+
+project-structure.txt
+HELP_AI_PROJECTPROMPT.md

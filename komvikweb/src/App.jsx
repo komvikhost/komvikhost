@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Ich from "./pages/Ich";
 import Skills from "./pages/skills/Skills";
 import Zeugnisse from "./pages/zeugnisse/Zeugnisse";
-import Projekte from "./pages/Projekte";
+import Projekte from "./pages/projects/Projects";
 import Blog from "./pages/Blog";
 import Kontakt from "./pages/kontakt/Kontakt";
 import "./i18n"; 
