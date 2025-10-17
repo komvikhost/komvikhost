@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
       {/* Кнопка для отображения флага языка */}
       <button
         onClick={() => setOpen(!open)}
-        className="w-10 h-10 p-2 bg-gray-200 hover:bg-gray-300 rounded-full transition-all"
+        className="w-10 h-10 p-2 bg-gray-100 hover:bg-gray-300 rounded-full transition-all"
         title="Select Language"
       >
         {/* Отображаем иконку в зависимости от текущего языка */}

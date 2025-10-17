@@ -1,10 +1,11 @@
 const dunkingClub = {
   id: "dunkingClub",
-  category: "web",
-  categoryColor: "border-blue-600",
-  image: "/images/projekts/web/dunkingclub_hp.png",
-  link: "https://komvik-dunkingclub.web.app/",
-  github: "https://github.com/komvik/dunking_club.git",
+  category: "app",
+  categoryColor:  "border-red-600",
+  categoryBgColor: "bg-red-50",  
+  image: "/images/projekts/mobil/dunkingclub.png",
+  link: null,
+  github: "https://github.com/komvik/dunkingclub.git",
   inDevelopment: false,
 };
 

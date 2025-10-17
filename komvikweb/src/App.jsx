@@ -17,7 +17,7 @@ export default function App() {
   const [cookiesAccepted, setCookiesAccepted] = useState(false);
 
   return (
-    <div className="font-sans min-h-screen flex flex-col bg-gray-200 relative">
+    <div className="font-sans min-h-screen flex flex-col bg-sitebg relative">
       <Header />
       <main className="mt-16 flex-grow relative z-10">
         <Routes>

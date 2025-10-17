@@ -19,7 +19,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-card text-primary shadow-md z-50 transition-all duration-300">
+    <header className="fixed top-0 left-0 w-full bg-sitebg text-primary shadow-md z-50 transition-all duration-300">
       <div className="container mx-auto px-1 py-1 flex justify-between items-center relative">
 
         {/* === ЛОГОТИП === */}
@@ -54,7 +54,7 @@ export default function Header() {
         <nav
           className={`
             absolute md:static left-0 top-[70px] md:top-auto w-full md:w-auto
-            bg-card md:bg-transparent text-center md:flex md:items-center
+            bg-sitebg md:bg-transparent text-center md:flex md:items-center
             transition-all duration-300 ease-in-out
             font-roboto-menu text-sm-menu md:text-base-menu lg:text-xl-menu tracking-wide
             ${open ? "opacity-100 visible" : "opacity-0 invisible md:visible md:opacity-100"}

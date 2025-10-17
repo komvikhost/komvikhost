@@ -2,6 +2,7 @@ const phpProject = {
   id: "phpProject",
   category: "php",
   categoryColor: "border-gray-600",
+  categoryBgColor: "bg-gray-50",
   image: "/images/projekts/muster.png",
   link: null,
   github: "https://github.com/komvik/dunkingclub.git",

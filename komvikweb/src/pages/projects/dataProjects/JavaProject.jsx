@@ -2,6 +2,7 @@ const javaProject = {
   id: "javaProject",
   category: "java",
   categoryColor: "border-purple-600",
+  categoryBgColor: "bg-purple-50",
   image: "/images/projekts/muster.png",
   link: null,
   github: "https://github.com/komvik/dunkingclub.git",

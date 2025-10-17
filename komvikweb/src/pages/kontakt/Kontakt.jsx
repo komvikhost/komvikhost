@@ -15,8 +15,8 @@ export default function Kontakt() {
   ];
 
   return (
-    <div className="flex flex-col items-center bg-gray-50 min-h-screen p-4">
-      <div className="max-w-6xl w-full p-6 shadow-lg rounded-2xl bg-white">
+    <div className="flex flex-col items-center bg-sitebg min-h-screen p-4">
+      <div className="max-w-6xl w-full p-6 shadow-lg rounded-2xl bg-gray-200">
         {/* Заголовки */}
         <h1 className="font-dosis text-3xl font-extrabold text-green-500 text-center mb-2">
           {t("title")}
@@ -55,7 +55,7 @@ export default function Kontakt() {
             </div>
 
             {/* Социальные сети */}
-            <div className="bg-blue-100 rounded-lg p-4 shadow-sm">
+            <div className="bg-gray-200 rounded-lg p-4 shadow-sm">
               <h3 className="font-dosis text-center font-semibold mb-3">{t("social.title")}</h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {socialLinks.map((s) => (
@@ -83,15 +83,14 @@ export default function Kontakt() {
               <a
   href={t("filedatenschutz")}
   download
-  className="
-    font-dosis
+  className="   
     inline-block
-    px-6
-    py-2
+    px-4
+    py-1
     text-base-contact
-    font-semibold
+    font-dosis
     bg-green-200
-    text-gray-500
+    text-gray-500 
     rounded-lg
     shadow-md
     border-2

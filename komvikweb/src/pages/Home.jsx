@@ -53,7 +53,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex justify-center items-center bg-card pb-20 min-h-[calc(100vh-4rem)]">
+    <div className="flex justify-center items-center bg-sitebg pb-20 min-h-[calc(100vh-4rem)]">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl w-full px-4 mt-8">
         {cards.map(card => (
           <Link key={card.to} to={card.to}>

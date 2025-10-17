@@ -12,7 +12,7 @@ const Carousel = () => {
     setActiveIndex((prev) => (prev - 1 + faces.length) % faces.length);
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen bg-card text-white pt-10">
+    <div className="flex flex-col items-center justify-start min-h-screen bg-sitebg text-white pt-10">
 
       {/* Контейнер 800x800 */}
       <div
@@ -38,20 +38,20 @@ const Carousel = () => {
       <div className="mt-6 flex space-x-6">
         <button
           onClick={prev}
-          className="px-5 py-2 bg-gray-700 hover:bg-gray-600 rounded-2xl transition"
+          className="px-5 py-2 bg-gray-500 hover:bg-gray-700 rounded-2xl transition"
         >
           ◀
         </button>
         <button
           onClick={next}
-          className="px-5 py-2 bg-gray-700 hover:bg-gray-600 rounded-2xl transition"
+          className="px-5 py-2 bg-gray-500 hover:bg-gray-700 rounded-2xl transition"
         >
           ▶
         </button>
       </div>
 
       {/* Индикатор */}
-      <p className="mt-4 text-gray-400 text-sm">
+      <p className="mt-4 text-gray-500 text-sm">
         {activeIndex + 1} / {faces.length}
       </p>
     </div>

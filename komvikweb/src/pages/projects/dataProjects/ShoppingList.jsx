@@ -1,7 +1,8 @@
 const shoppingList = {
   id: "shoppingList",
-  category: "mobile",
-  categoryColor: "border-red-700",
+  category: "app",
+  categoryColor:  "border-red-600",
+  categoryBgColor: "bg-red-50",
   image: "/images/projekts/mobil/shopping_list.png",
   link: null,
   github: "https://github.com/komvik/simple_beautiful_shopping_list.git"

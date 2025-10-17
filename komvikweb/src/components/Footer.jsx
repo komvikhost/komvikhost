@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer className="
     fixed     bottom-0     left-0 w-full
-    bg-gray-300
+    bg-sitebg
     text-blue-700   text-sm    h-[35px] 
     flex items-center    justify-center    z-40
     ">
